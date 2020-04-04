@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <body>
+            {% for article in articles %}
+            <!--p标签表示一个小段-->
+            <!--<p>{{article.title}}</p>-->
+            <!--pk:primary key-->
+<!--            <a href="/article/{{article.pk}}">{{article.title}}</a>-->
+<!--            {  %  url  % }  是一个template tag-->
+            <a href = "{%url 'article_detail' article.pk %}">{{article.title}}</a>
+            {% endfor %}
+        </body>>
+    </head>>
+</html>>
