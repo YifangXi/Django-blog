@@ -1,2 +1,2 @@
 # Django-blog
-Django的一个项目
+Django的一个blog项目
